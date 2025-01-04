@@ -54,8 +54,8 @@ for i = 1, width * height do
 	if cell == 8 then
 		cellChar = "╡"
 	end -- 0b1000
+	io.write(cellChar)
 	if i % width == 0 then
 		io.write("\n")
 	end
 end
-
